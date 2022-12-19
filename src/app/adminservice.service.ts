@@ -7,7 +7,7 @@ import { Admins } from './admins';
 })
 export class AdminserviceService {
 
-  baseURL="http://localhost:8080/Admin"
+  baseURL="https://back-end2-backend.apps.eu410.prod.nextcle.com/Admin"
   id?:Number;
   
   temp?:Number;
