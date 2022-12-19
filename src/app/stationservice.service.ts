@@ -6,7 +6,7 @@ import { Stations } from './stations';
   providedIn: 'root'
 })
 export class StationserviceService {
-  baseURL="http://localhost:8080/station"
+  baseURL="https://back-end2-backend.apps.eu410.prod.nextcle.com/station"
   id?:Number;
   constructor(private httpClient: HttpClient) { }
 
