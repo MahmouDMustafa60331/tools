@@ -7,8 +7,8 @@ import { Trips } from './trips';
   providedIn: 'root'
 })
 export class TripServiceService {
-  baseURL="http://localhost:8080/Trip"
-  UpdateURL="http://localhost:8080/Admin"
+  baseURL="https://back-end2-backend.apps.eu410.prod.nextcle.com/Trip"
+  UpdateURL="https://back-end2-backend.apps.eu410.prod.nextcle.com/Admin"
   id?:Number;
   constructor(private httpClient: HttpClient) { }
 
