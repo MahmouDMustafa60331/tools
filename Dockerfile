@@ -4,7 +4,7 @@ COPY . .
 RUN npm cache clean --force
 RUN npm install
 RUN npm install -g @angular/cli
-RUN node_modules/.bin/ng build --prod
+RUN node_modules/.bin/ng build
 EXPOSE 4200
 ENTRYPOINT [ "npm" , "start" ]  
 
