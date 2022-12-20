@@ -8,6 +8,11 @@
     "watch": "npx ng build --watch --configuration development",
     "test": "npx ng test"
   },
+  
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
