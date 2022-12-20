@@ -4,7 +4,7 @@ COPY . .
 RUN npm cache clean --force
 RUN npm install
 EXPOSE 4200
-ENTRYPOINT npm start
+ENTRYPOINT [ "npm" , "start" ]
 
 
 
