@@ -3,7 +3,7 @@ WORKDIR /app
 COPY . .
 USER root
 RUN npm cache clean --force
-RUN npm install
+RUN npm install -g --unsafe-perm=true --allow-root
 EXPOSE 4200
 ENTRYPOINT [ "npm" , "start" ]
 
